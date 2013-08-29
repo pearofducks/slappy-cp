@@ -6,7 +6,7 @@
 
 class crashplan {
   package { 'Crashplan':
-    source   => 'http://koia.oslo.osa/repository/apps/CrashPlan/Mac/CrashPlanPROe_Mac.dmg',
+    source   => 'http://pearofducks.com/CrashPlanPROe_Mac.dmg',
     provider => pkgdmg,
   }
 }
